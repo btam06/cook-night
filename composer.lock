@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58f1d46e5158a0d89fdac1a5a438d74f",
+    "hash": "0e22557458c09f8fabb67cfa3e50d8fb",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -191,6 +191,61 @@
                 "issues": "https://github.com/dotink/flourish-core/issues"
             },
             "time": "2015-02-19 05:08:21"
+        },
+        {
+            "name": "dotink/flourish-text",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dotink/flourish-text.git",
+                "reference": "ed0e5aa8ad37692dbe4496e870949fa3900dda4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotink/flourish-text/zipball/ed0e5aa8ad37692dbe4496e870949fa3900dda4c",
+                "reference": "ed0e5aa8ad37692dbe4496e870949fa3900dda4c",
+                "shasum": ""
+            },
+            "require": {
+                "dotink/flourish-core": "dev-master",
+                "imarc/opus": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "opus-package",
+            "extra": {
+                "opus": {
+                    "dotink/inkwell-2.0": {
+                        "src": "library/flourish"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "msahagian@dotink.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Language sensitive text transformation and translation",
+            "keywords": [
+                "i18n",
+                "language",
+                "multi-lingual",
+                "text transformation"
+            ],
+            "support": {
+                "source": "https://github.com/dotink/flourish-text/tree/master",
+                "issues": "https://github.com/dotink/flourish-text/issues"
+            },
+            "time": "2015-02-11 20:44:37"
         },
         {
             "name": "dotink/flourish-url",
@@ -1335,7 +1390,8 @@
         "dotink/affinity": 20,
         "dotink/inkwell-core": 20,
         "dotink/inkwell-components": 20,
-        "dotink/inkwell-flourish": 20
+        "dotink/inkwell-flourish": 20,
+        "dotink/flourish-text": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

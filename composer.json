@@ -23,7 +23,8 @@
 		"dotink/affinity": "dev-master",
 		"dotink/inkwell-core": "dev-master",
 		"dotink/inkwell-components": "dev-master",
-		"dotink/inkwell-flourish": "dev-master"
+		"dotink/inkwell-flourish": "dev-master",
+		"dotink/flourish-text": "dev-master"
 	},
 	"autoload": {
 		"classmap": ["user/"]

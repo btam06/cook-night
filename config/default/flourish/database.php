@@ -3,11 +3,11 @@
 	return Affinity\Config::create([
 		'connections' => [
 			'default' => [
-				'driver'   => NULL, // mssql, mysql, postgresql
-				'database' => $app->getEnvironment('DB_NAME', NULL),
-				'username' => $app->getEnvironment('DB_USER', NULL),
-				'password' => $app->getEnvironment('DB_PASS', NULL),
-				'host'     => $app->getEnvironment('DB_HOST', 'localhost')
+				'driver'   => 'postgresql', // mssql, mysql, postgresql
+				'database' => 'cook_night',
+				'username' => 'caker',
+				'password' => NULL,
+				'host'     => 'localhost'
 			]
 		]
 	]);
