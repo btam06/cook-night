@@ -22,7 +22,8 @@
 		"rdlowrey/auryn": "dev-master",
 		"dotink/affinity": "dev-master",
 		"dotink/inkwell-core": "dev-master",
-		"dotink/inkwell-components": "dev-master"
+		"dotink/inkwell-components": "dev-master",
+		"dotink/inkwell-flourish": "dev-master"
 	},
 	"autoload": {
 		"classmap": ["user/"]

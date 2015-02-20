@@ -57,7 +57,7 @@
 			//
 
 			'links' => [
-
+				'/forum'     => 'Forum\HomeController::main'
 			],
 
 			//
@@ -65,7 +65,7 @@
 			//
 
 			'handlers' => [
-
+				HTTP\NOT_FOUND => 'ErrorHandler::notFound'
 			],
 
 			//

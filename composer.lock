@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32e8812928bf9bbbefc319281933eaff",
+    "hash": "58f1d46e5158a0d89fdac1a5a438d74f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -89,12 +89,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dotink/flourish-collection.git",
-                "reference": "e8325bb9172378caa44688bc369796a6d0def3d4"
+                "reference": "1a595d18303f86d0c491bc8f1fe8c9ae3fa71850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dotink/flourish-collection/zipball/e8325bb9172378caa44688bc369796a6d0def3d4",
-                "reference": "e8325bb9172378caa44688bc369796a6d0def3d4",
+                "url": "https://api.github.com/repos/dotink/flourish-collection/zipball/1a595d18303f86d0c491bc8f1fe8c9ae3fa71850",
+                "reference": "1a595d18303f86d0c491bc8f1fe8c9ae3fa71850",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
                 "source": "https://github.com/dotink/flourish-collection/tree/master",
                 "issues": "https://github.com/dotink/flourish-collection/issues"
             },
-            "time": "2015-02-17 08:19:48"
+            "time": "2015-02-19 08:57:25"
         },
         {
             "name": "dotink/flourish-core",
@@ -145,12 +145,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dotink/flourish-core.git",
-                "reference": "1.0.0"
+                "reference": "ec195a00502bcc8b66e701bdc6b4570f83e7ab5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dotink/flourish-core/zipball/1.0.0",
-                "reference": "1.0.0",
+                "url": "https://api.github.com/repos/dotink/flourish-core/zipball/ec195a00502bcc8b66e701bdc6b4570f83e7ab5c",
+                "reference": "ec195a00502bcc8b66e701bdc6b4570f83e7ab5c",
                 "shasum": ""
             },
             "require": {
@@ -187,10 +187,10 @@
                 "exception handling"
             ],
             "support": {
-                "source": "https://github.com/dotink/flourish-core/tree/1.0.0",
+                "source": "https://github.com/dotink/flourish-core/tree/master",
                 "issues": "https://github.com/dotink/flourish-core/issues"
             },
-            "time": "2015-02-11 05:20:22"
+            "time": "2015-02-19 05:08:21"
         },
         {
             "name": "dotink/flourish-url",
@@ -504,6 +504,53 @@
             "time": "2015-02-11 09:23:48"
         },
         {
+            "name": "dotink/inkwell-flourish",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dotink/inkwell-flourish.git",
+                "reference": "0c4e590489c14062c0254c5580452cc23d9fc529"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotink/inkwell-flourish/zipball/0c4e590489c14062c0254c5580452cc23d9fc529",
+                "reference": "0c4e590489c14062c0254c5580452cc23d9fc529",
+                "shasum": ""
+            },
+            "require": {
+                "flourish/flourish": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "opus-package",
+            "extra": {
+                "opus": {
+                    "inkwell/framework": {
+                        "plugin/config": "config",
+                        "plugin/include": "include"
+                    }
+                }
+            },
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew J. Sahagian",
+                    "email": "matt@imarc.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Flourish integration for inKWell (God Save Us All)",
+            "keywords": [
+                "retarded"
+            ],
+            "support": {
+                "source": "https://github.com/dotink/inkwell-flourish/tree/master",
+                "issues": "https://github.com/dotink/inkwell-flourish/issues"
+            },
+            "time": "2015-02-18 01:34:42"
+        },
+        {
             "name": "dotink/inkwell-html",
             "version": "dev-master",
             "source": {
@@ -561,12 +608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dotink/inkwell-http.git",
-                "reference": "3b6b2ebddf05902f0f5c4d9a898b56c0bcc839d8"
+                "reference": "39765bea5cabdced9d32850465a5a0f1cf422e97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dotink/inkwell-http/zipball/3b6b2ebddf05902f0f5c4d9a898b56c0bcc839d8",
-                "reference": "3b6b2ebddf05902f0f5c4d9a898b56c0bcc839d8",
+                "url": "https://api.github.com/repos/dotink/inkwell-http/zipball/39765bea5cabdced9d32850465a5a0f1cf422e97",
+                "reference": "39765bea5cabdced9d32850465a5a0f1cf422e97",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +655,7 @@
             "support": {
                 "source": "https://github.com/dotink/inkwell-http/tree/master"
             },
-            "time": "2015-02-17 06:18:43"
+            "time": "2015-02-19 06:31:51"
         },
         {
             "name": "dotink/inkwell-routing",
@@ -720,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dotink/inkwell-view.git",
-                "reference": "dd04d4e1d8889c4805d9b39b3386ea519c403009"
+                "reference": "bb21c37465c0ccba818e79e89397c71c73e6533a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dotink/inkwell-view/zipball/dd04d4e1d8889c4805d9b39b3386ea519c403009",
-                "reference": "dd04d4e1d8889c4805d9b39b3386ea519c403009",
+                "url": "https://api.github.com/repos/dotink/inkwell-view/zipball/bb21c37465c0ccba818e79e89397c71c73e6533a",
+                "reference": "bb21c37465c0ccba818e79e89397c71c73e6533a",
                 "shasum": ""
             },
             "require": {
@@ -766,7 +813,7 @@
             "support": {
                 "source": "https://github.com/dotink/inkwell-view/tree/master"
             },
-            "time": "2015-02-07 09:17:57"
+            "time": "2015-02-19 08:23:12"
         },
         {
             "name": "filp/whoops",
@@ -774,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "01f84f8121a882b100cb153a9b92056439a34c5b"
+                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/01f84f8121a882b100cb153a9b92056439a34c5b",
-                "reference": "01f84f8121a882b100cb153a9b92056439a34c5b",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/dcce91553e2e056857f1ea844949e9a8a71b613d",
+                "reference": "dcce91553e2e056857f1ea844949e9a8a71b613d",
                 "shasum": ""
             },
             "require": {
@@ -824,7 +871,51 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-01-22 15:11:11"
+            "time": "2015-02-17 15:50:31"
+        },
+        {
+            "name": "flourish/flourish",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flourishlib/flourish-classes.git",
+                "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flourishlib/flourish-classes/zipball/60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+                "reference": "60f80f1fbf10dea5cb05f98e9af3f0f96d9d9101",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.9.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Will Bond",
+                    "email": "will@wbond.net",
+                    "homepage": "http://wbond.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A collection of classes for general web development, with a particular focus on compatibility, portability and security",
+            "homepage": "http://flourishlib.com/",
+            "time": "2014-02-26 18:40:29"
         },
         {
             "name": "imarc/opus",
@@ -1243,7 +1334,8 @@
         "rdlowrey/auryn": 20,
         "dotink/affinity": 20,
         "dotink/inkwell-core": 20,
-        "dotink/inkwell-components": 20
+        "dotink/inkwell-components": 20,
+        "dotink/inkwell-flourish": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
