@@ -1,0 +1,28 @@
+body {
+	background-color: #2A2C2B;
+}
+
+h2 {
+	color: #DC3522;
+}
+
+.content {
+	background-color: #fff;
+	border-top: 10px solid #D9CB9E;
+	border-bottom: 15px solid #bbb;
+	padding: 2rem 0;
+}
+
+p {
+	color: #777;
+}
+
+a {
+	color: #DC3522;
+	transition: all 0.2s ease;
+}
+
+a:hover {
+	color: #374140;
+	transition: all 0.2s ease;
+}
