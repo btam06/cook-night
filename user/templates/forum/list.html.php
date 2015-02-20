@@ -4,3 +4,4 @@
 	$this->set('title', 'Not cakes');
 
 	?>
+Cakes
