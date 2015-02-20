@@ -9,8 +9,17 @@
 
 		<ul>
 
-		<?php foreach ($this('categories') as $category) { ?>
-			<li><?= $category->encodeName()?></li>
+		<?php foreach ($this('records') as $category => $topics) { ?>
+			<li>
+				<?= $category?>
+				<ul>
+					<?php foreach ($topics as $topic) { ?>
+						<li>
+							<a href="<?= $topic->makeUrl()?>"><?= $topic->encodeName() ?></a>
+						</li>
+					<?php }?>
+				</ul>
+			</li>
 		<?php } ?>
 
 		</ul>

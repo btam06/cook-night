@@ -57,7 +57,8 @@
 			//
 
 			'links' => [
-				'/forum'     => 'Forum\HomeController::main'
+				'/forum'            => 'Forum\HomeController::main',
+				'/forum/[!:topic]'  => 'Forum\HomeController::viewTopic'
 			],
 
 			//
