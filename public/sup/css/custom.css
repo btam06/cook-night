@@ -1,20 +1,28 @@
 body {
-	background-color: #2A2C2B;
+	background-color: #eee;
 }
 
-h2 {
+h1 {
 	color: #DC3522;
+	font-weight: 700;
+	font-size: 3.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rokkitt', serif;
 }
 
 .content {
 	background-color: #fff;
-	border-top: 10px solid #D9CB9E;
+	border-top: 10px solid #e8dec3;
 	border-bottom: 15px solid #bbb;
 	padding: 2rem 0;
 }
 
 p {
-	color: #777;
+	color: #555;
+	font-family: 'Hind', sans-serif;
+	font-weight: 300;
 }
 
 a {
@@ -25,4 +33,14 @@ a {
 a:hover {
 	color: #374140;
 	transition: all 0.2s ease;
+}
+
+.intro {
+	text-align: center;
+}
+
+.section-1 h4 {
+	background-color: #eee;
+	color: #555;
+	padding: 0 0.5rem;
 }
